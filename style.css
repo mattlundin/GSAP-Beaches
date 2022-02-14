@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+	height: 100vh;
+	margin: 0;
+	font-family: 'Playfair Display', sans-serif;
+	background-color: #000;
+	overflow: hidden;
+}
+
+.bg {
+	height: 100vh;
+	background-image: url('https://images.unsplash.com/reserve/lNlimzQRqm3emNrRnv1w_IMG_7726.JPG?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+	background-position: center center;
+	background-size: cover;
+}
+
+.fa-solid {
+	display: block;
+	width: 2rem;
+	margin: 2rem auto;
+	font-size: 2rem;
+	color: #fff;
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.container {
+	position: absolute;
+	display: grid;
+	place-content: center;
+	top: 0;
+	height: 100vh;
+	width: 100%;
+}
+
+.content {
+	text-align: center;
+	color: #fff;
+}
+
+.content h1 {
+	margin-bottom: 0;
+	font-size: 3rem;
+	font-weight: normal;
+}
+
+.content p {
+	font-size: 1.2rem;
+}
+
+.text-reveal {
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+	transition: all 1.5s;
+	transform: translateY(-3rem);
+}
+
+.locations-container {
+	position: absolute;
+	display: flex;
+	bottom: 0;
+}
+
+.info {
+	position: relative;
+	margin-top: -0.5rem;
+	padding: 3rem;
+	background: #fff;
+}
+
+.title {
+	margin-top: -9.5rem;
+	margin-bottom: 2.5rem;
+	width: auto;
+	font-size: 2rem;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.363);
+	color: #fff;
+}
+
+span {
+	display: block;
+}
+
+.beach {
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+	opacity: 0;
+	transform: translateY(2rem);
+}
+
+img {
+	height: 15rem;
+	width: 100%;
+	object-fit: cover;
+}
+
+/* 
+
+https://images.unsplash.com/photo-1549755085-883f708a5056?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
+
+https://images.unsplash.com/photo-1517219039361-66f283bce5db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80
+
+Keonjhar, India
+https://images.unsplash.com/photo-1535262412227-85541e910204?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80
+
+Fuvahmulah, Maldives
+https://images.unsplash.com/photo-1544945582-052b29cd29e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1330&q=80
+
+Phi Phi Islands, Phuket, Thailand
+https://images.unsplash.com/photo-1551418988-c21e451467b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80
+*/
